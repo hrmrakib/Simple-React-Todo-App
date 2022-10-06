@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* @import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrant", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: rgb(225, 225, 225);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main {
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(44, 82, 232);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todoList {
+  margin-top: 4px;
+  background-color: rgb(112, 58, 162);
+  border-radius: 0 0 5px 5px;
 }
